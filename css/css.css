@@ -1,12 +1,10 @@
 .clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both;  }
 
-html {
-	background: rgba(254, 95, 85, 1);
-}
+
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: lighter;
-   color: #333;
+   color: #222;
 }
 a {text-decoration: underline; color: rgb(255, 255, 255);}
 
@@ -17,33 +15,73 @@ h6 {font-size: 0.9em; font-weight: bolder; line-height: 24px; margin-right: 20px
 /*navigation bar*/
 nav {position: fixed; z-index: 1000; top: 0px; left: 0px; padding: 20px; width: 100%; background: rgba(255,255,255,.90);}
 nav li {float:left; margin: 0 20px 0 0; line-height: 24px; }
-nav a { font-size: .8em; text-transform: uppercase; border-bottom: 1px solid transparent; transition: border .25s; color: #333;}
-nav .hl a {border-bottom: 1px solid #333; transition: border .25s;}
+nav a { font-size: .8em; text-transform: uppercase; border-bottom: 1px solid transparent; transition: border .25s; color: #222;}
+nav .hl a {border-bottom: 1px solid #222; transition: border .25s;}
 nav li a:hover, nav li a:focus {border-bottom: 1px solid rgba(0,154,220,1);}
 nav ul, nav h6 {float: left;}
+
+
+.privacyPage {
+	margin-top: 24px;
+	margin-right: 24px;
+	margin-left: 24px;
+}
+
+#homePage {
+	background: rgba(254, 95, 85, 1);
+}
+
+#privacyPage {
+	background: rgb(250,250,250);
+}
+
+.title {
+	font-size: 6em;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+.appUnit {
+	max-width: 240px;
+	float: left;
+	margin-right: 24px;
+	margin-left: 24px;
+}
+
+.appUnit h3 {
+	max-width: 240px;
+	margin-bottom: 48px;
+}
+
+.titleUnit {
+	margin-bottom: 64px;
+}
 
 .welcome {
   max-width: 1000px;
   padding: 24px;
   margin: auto;
 }
-.welcome h6 { font-size: 7em; text-align: left; line-height: inherit;}
-.welcome ul {margin-left: 4px;}
-
-/*container*/
-.container {max-width: 1200px; margin: 0 auto; padding: 80px 20px 0 20px;}
-.description {max-width: 640px; margin: 0 auto 80px auto;}
-.work_container {}
-.section {margin-bottom: 40px;}
 
 
-.opener {max-width: 100%; margin: 0 auto; display: block;}
 
 /*Project Title*/
-h2 {font-size: 1.75em; font-weight: bolder; text-align: center;}
+h2 {
+	font-size: 1.75em; 
+	font-weight: bolder; 
+	text-align: center;
+	color: #222;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
 
 /*Project Subhead*/
-h3 {font-size: 1em; text-align: center; margin-bottom: 1em; color: #999;}
+h3 {
+	font-size: 1.5em; 
+	text-align: center; 
+	margin-bottom: 1em; 
+	color: #222;
+}
 
 /*Project Subhead*/
 h5 {
@@ -51,7 +89,7 @@ h5 {
 	font-weight: bolder; 
 	text-align: center; 
 	margin-bottom: 1em; 
-	color: #333;
+	color: #222;
 	position: absolute;
 	z-index:-1;
 	top: -80px;
@@ -86,10 +124,10 @@ p {font-size: .9em; margin-bottom: .9em;}
 
 
 /*section title*/
-h4 {font-size: 1em; font-weight: bolder; border-bottom: 1px solid #333; margin: 0 0 20px 0;}
-
-/*work*/
-.work_container img {max-width: 100%; margin-bottom: 80px;}
+h4 {
+	font-size: 1.5em; 
+	font-weight: bold; 
+	margin: 0 0 24px 0;}
 
 
 
