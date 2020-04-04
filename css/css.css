@@ -12,7 +12,7 @@ a {text-decoration: underline; color: rgb(255, 255, 255);}
 
 #wrapper {width: 100%; height: 100%;}
 
-h6 {font-size: 0.9em; font-weight: bolder; line-height: 24px; margin-right: 20px; color: rgb(10,40,80);}
+h6 {font-size: 0.9em; font-weight: bolder; line-height: 24px; margin-right: 20px; color: rgb(255,255,255);}
 
 /*navigation bar*/
 nav {position: fixed; z-index: 1000; top: 0px; left: 0px; padding: 20px; width: 100%; background: rgba(255,255,255,.90);}
@@ -23,12 +23,9 @@ nav li a:hover, nav li a:focus {border-bottom: 1px solid rgba(0,154,220,1);}
 nav ul, nav h6 {float: left;}
 
 .welcome {
-  position: absolute;
-  width: 300px;
-  padding: 0px;
-  left: 50%;
-  top: 50%;
-  margin: -90px 0 0 -160px;
+  max-width: 1000px;
+  padding: 24px;
+  margin: auto;
 }
 .welcome h6 { font-size: 7em; text-align: left; line-height: inherit;}
 .welcome ul {margin-left: 4px;}
