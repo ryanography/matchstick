@@ -6,11 +6,11 @@ body {
    font-weight: lighter;
    color: #222;
 }
-a {text-decoration: underline; color: rgb(255, 255, 255);}
+a {text-decoration: underline; color: rgb(120, 120, 120);}
 
 #wrapper {width: 100%; height: 100%;}
 
-h6 {font-size: 0.9em; font-weight: bolder; line-height: 24px; margin-right: 20px; color: rgb(255,255,255);}
+h6 {font-size: 0.9em; font-weight: bolder; line-height: 24px; margin-right: 20px; color: rgb(120,120,120);}
 
 /*navigation bar*/
 nav {position: fixed; z-index: 1000; top: 0px; left: 0px; padding: 20px; width: 100%; background: rgba(255,255,255,.90);}
@@ -28,7 +28,7 @@ nav ul, nav h6 {float: left;}
 }
 
 #homePage {
-	background: rgba(254, 95, 85, 1);
+	background: rgba(250, 250,250, 1);
 }
 
 #privacyPage {
@@ -37,8 +37,16 @@ nav ul, nav h6 {float: left;}
 
 .title {
 	font-size: 6em;
-	color: rgb(255, 255, 255);
+	color: rgb(0,0,0);
 	font-weight: bold;
+}
+
+#randomActsApp {
+	background: rgba(254, 95, 85, 1);
+}
+
+#toDayApp {
+	background: rgba(0, 230, 180, 1);
 }
 
 .appUnit {
@@ -46,6 +54,10 @@ nav ul, nav h6 {float: left;}
 	float: left;
 	margin-right: 24px;
 	margin-left: 24px;
+	margin-top: 24px;
+	padding: 24px;
+	border-radius: 8px;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.16);
 }
 
 .appUnit h3 {
@@ -96,7 +108,7 @@ h5 {
 	text-transform: uppercase;
 }
 
-.logo, .download {
+.logo, .download, .download img {
 	margin: 0 auto;
 	display: block;
 	width: 206px;
